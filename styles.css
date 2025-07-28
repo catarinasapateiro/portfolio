@@ -229,6 +229,9 @@ span.project-title-button {
   justify-content: center;
   align-items: center;
   background-color: #632e51;
+  box-shadow: 2px 2px 3px 0px rgba(84, 83, 83, 0.8);
+  -webkit-box-shadow: 2px 2px 3px 0px rgba(84, 83, 83, 0.8);
+  -moz-box-shadow: 2px 2px 3px 0px rgba(84, 83, 83, 0.8);
 }
 
 #theme-switch svg {
