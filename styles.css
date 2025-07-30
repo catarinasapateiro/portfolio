@@ -109,6 +109,7 @@ nav {
 
 .small-text {
   font-size: 1.2rem;
+  color: rgba(0, 0, 0);
 }
 
 /*** Summary Section ***/
@@ -150,7 +151,6 @@ nav {
 
 .summary-text {
   font-size: 1.3rem;
-
   color: rgb(33, 28, 31);
   text-align: justify;
   padding: 0;
@@ -512,25 +512,19 @@ footer .small-text {
   .project-container {
     border-radius: 0;
     justify-content: center;
+    align-items: center;
     padding: 0.75rem;
   }
 
   .project-img-1 {
     display: flex;
     justify-content: center;
+    min-width: 300px;
   }
 
   .img-box {
     justify-content: center;
-  }
-
-  .project-img-container {
-    border-radius: 0;
-    max-width: 260px;
-  }
-
-  .project-img-1 {
-    border-radius: 0;
+    height: 100%;
   }
 
   .arrow {
@@ -541,6 +535,16 @@ footer .small-text {
 
   a.next {
     font-size: 1.2rem;
+    height: 100%;
+  }
+
+  .project-img-container {
+    border-radius: 0;
+    max-width: 260px;
+  }
+
+  .project-img-1 {
+    border-radius: 0;
   }
 
   ul {
