@@ -10,7 +10,7 @@ html,
 body {
   font-family: "Ancizar Sans", sans-serif;
   font-optical-sizing: auto;
-  background-color: rgba(181, 164, 164, 0.9);
+  background-color: rgba(220, 203, 203);
   color: rgb(33, 28, 31);
   line-height: 1.5;
   overflow-x: hidden;
@@ -261,6 +261,7 @@ span.project-title-button {
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+  position: relative;
 }
 
 img {
@@ -273,33 +274,36 @@ img {
   max-height: 500px;
   object-fit: scale-down;
   transition: opacity 1.5s ease-in-out;
-}
-
-.project-img-1:hover {
-  transform: scale(1.03);
-  filter: brightness(1.05);
+  /* background-color: rgb(99, 46, 81, 0.8); */
+  background-color: rgba(128, 85, 95, 0.7);
 }
 
 .arrow {
   display: flex;
   justify-content: center;
-  width: 30px;
-  height: 30px;
   align-items: center;
-  background-color: rgb(37, 37, 37, 0.4);
+  background-color: rgb(220, 203, 203);
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 30px;
+  margin: 0;
 }
 
 a.next {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   color: rgba(99, 46, 81);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
 }
 
 a.next:hover {
   color: rgb(138, 88, 121);
-}
-
-.arrow:hover {
-  background-color: rgb(37, 37, 37, 0.7);
 }
 
 .project-text-container {
@@ -312,6 +316,9 @@ a.next:hover {
   font-size: 2rem;
   color: rgba(99, 46, 81, 0.9);
   margin-bottom: 0.5rem;
+}
+a .text-link.text-link {
+  line-height: 1.5rem;
 }
 
 .text-link {
@@ -528,9 +535,7 @@ footer .small-text {
   }
 
   .arrow {
-    display: flex;
-    width: 20px;
-    justify-content: center;
+    right: -21px;
   }
 
   a.next {
@@ -545,6 +550,7 @@ footer .small-text {
 
   .project-img-1 {
     border-radius: 0;
+    background-color: rgb(220, 203, 203);
   }
 
   ul {
