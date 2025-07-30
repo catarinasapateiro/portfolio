@@ -63,6 +63,12 @@ h3 {
   color: #632e51;
 }
 
+h4 {
+  font-size: 1.5rem;
+  color: #632e51;
+  margin: 0 0 0.5rem 1rem;
+}
+
 .title-profession {
   font-size: 2.5rem;
   color: rgba(99, 46, 81, 0.9);
@@ -257,12 +263,16 @@ span.project-title-button {
   gap: 0.5rem;
 }
 
+img {
+  transition: opacity 0.5s ease-in-out;
+}
+
 .project-img-1 {
   width: 95%;
   height: auto;
   max-height: 500px;
   object-fit: scale-down;
-  transition: all 0.3s ease;
+  transition: opacity 1.5s ease-in-out;
 }
 
 .project-img-1:hover {
