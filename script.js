@@ -8,9 +8,7 @@ let svgPath = document.getElementById("svg-image");
 let img = projectImage[0];
 let lightMode = true;
 
-function changeImage(event) {
-  event.preventDefault();
-
+function changeImage() {
   if (img.src.endsWith("geo-explorer.png")) {
     img.src = "./img/gradient-light.png";
     title.innerText = "gradient-calculator";
@@ -81,3 +79,5 @@ function changeProfileImage() {
 function setOriginal() {
   profileImage.src = "./img/IMG_2944.JPG";
 }
+
+setInterval(changeImage, 15000);

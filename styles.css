@@ -273,7 +273,9 @@ img {
   height: auto;
   max-height: 500px;
   object-fit: scale-down;
-  transition: opacity 1.5s ease-in-out;
+  opacity: 1;
+  transition: opacity 400ms ease, transform 400ms ease;
+  will-change: opacity, transform;
   background-color: rgba(128, 85, 95, 0.7);
 }
 
@@ -315,6 +317,8 @@ a.next:hover {
   font-size: 2rem;
   color: rgba(99, 46, 81, 0.9);
   margin-bottom: 0.5rem;
+  opacity: 1;
+  transition: opacity 400ms ease, transform 400ms ease;
 }
 a .text-link.text-link {
   line-height: 1.5rem;
@@ -324,8 +328,10 @@ a .text-link.text-link {
   font-size: 1.2rem;
   color: rgba(99, 46, 81);
   text-decoration: none;
-  transition: color 0.3s ease;
+  opacity: 1;
+  transition: opacity 400ms ease, transform 400ms ease;
   word-break: break-all;
+  line-height: 2.5rem;
 }
 
 .text-link:hover {
