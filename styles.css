@@ -274,7 +274,6 @@ img {
   max-height: 500px;
   object-fit: scale-down;
   transition: opacity 1.5s ease-in-out;
-  /* background-color: rgb(99, 46, 81, 0.8); */
   background-color: rgba(128, 85, 95, 0.7);
 }
 
