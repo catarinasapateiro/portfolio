@@ -170,6 +170,15 @@ nav {
   padding: 0;
   margin: 0;
   margin-bottom: 1.5rem;
+  line-height: 1.6em;
+  word-break: normal;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+.summary-text.project {
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 .ul-container {
@@ -178,6 +187,7 @@ nav {
   background-color: rgba(140, 79, 112, 0.6);
   border-radius: 1rem;
   padding: 1rem;
+  box-shadow: 0 2px 4px 0px rgba(49, 12, 38, 0.3);
 }
 
 .ul-container ul {
@@ -369,4 +379,3 @@ footer .small-text {
   font-size: 1.5rem;
   font-weight: bold;
 }
-
