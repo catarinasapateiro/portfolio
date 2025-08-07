@@ -116,4 +116,4 @@ function setOriginal() {
   profileImage.src = "./img/IMG_2944.JPG";
 }
 
-setInterval(changeImage, 15000);
+// setInterval(changeImage, 15000);
