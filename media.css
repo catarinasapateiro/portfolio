@@ -1,0 +1,275 @@
+/*** Responsive Design ***/
+
+@media (min-width: 768px) {
+  .summary {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .image-container {
+    flex: 0 0 45%;
+    max-width: 45%;
+  }
+
+  .text-box {
+    flex: 0 0 50%;
+  }
+
+  .project-container {
+    flex-direction: row;
+  }
+
+  .project-img-container {
+    flex: 0 0 55%;
+  }
+
+  .project-text-container {
+    flex: 0 0 40%;
+  }
+
+  .ul-container ul {
+    flex: 1;
+    min-width: 100px;
+    list-style-type: none;
+    margin: 0;
+  }
+}
+
+/*ipad Layout*/
+@media (max-width: 1024px) {
+  html,
+  body {
+    margin: 0;
+  }
+
+  .header-titles {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 3rem;
+    gap: 1rem;
+  }
+
+  nav {
+    margin-left: 3rem;
+  }
+
+  h1 {
+    margin: 0;
+  }
+
+  .summary {
+    gap: 1rem;
+  }
+
+  .summary-text {
+    font-size: 1.1rem;
+  }
+
+  .ul-container {
+    padding: 0.25rem;
+  }
+
+  .ul-container li {
+    font-size: 1.1rem;
+  }
+
+  .project-img-1 {
+    max-height: 450px;
+  }
+
+  h3 {
+    margin: 0.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /*** Mobile Layout ***/
+  h1 {
+    font-size: 3.5rem;
+    text-align: start;
+    width: 100%;
+  }
+  .header-titles {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .header-titles > div {
+    width: 100%;
+    text-align: center;
+  }
+
+  nav {
+    justify-content: center;
+  }
+
+  .title-profession,
+  .name {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .summary-text {
+    font-size: 1.3rem;
+  }
+
+  .ul-container li {
+    font-size: 1.3rem;
+  }
+
+  a.text-link {
+    line-height: 0.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /*** Small Mobile ***/
+  html,
+  body {
+    margin: 0;
+  }
+  h1 {
+    font-size: 2.8rem;
+    margin: 0;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+    margin: 0;
+    line-height: 1.2rem;
+  }
+
+  nav {
+    justify-content: flex-start;
+    gap: 3rem;
+    margin-left: 0.5rem;
+  }
+
+  .header-titles {
+    gap: 0.5rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 0;
+  }
+
+  .small-text {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+
+  .summary-text {
+    margin: 0.6rem;
+  }
+
+  .text-box {
+    margin-left: 0;
+  }
+
+  .summary {
+    margin: 0;
+    margin-left: 0;
+    padding: 0;
+  }
+
+  .title-profession,
+  .name {
+    font-size: 1.7rem;
+  }
+
+  .header-right {
+    align-items: flex-start;
+  }
+
+  .small-text {
+    font-size: 0.8rem;
+  }
+
+  .icon-container {
+    flex-direction: column;
+  }
+
+  .icon {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+
+  .summary-text {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    flex-wrap: wrap;
+  }
+
+  .project-container {
+    border-radius: 0;
+    justify-content: center;
+    align-items: center;
+    padding: 0.75rem;
+  }
+
+  .project-img-1 {
+    display: flex;
+    justify-content: center;
+    min-width: 300px;
+  }
+
+  .img-box {
+    justify-content: center;
+    height: 100%;
+  }
+
+  .arrow {
+    right: -21px;
+  }
+
+  a.next {
+    font-size: 1.2rem;
+    height: 100%;
+  }
+
+  .project-img-container {
+    border-radius: 0;
+    max-width: 260px;
+  }
+
+  .project-img-1 {
+    border-radius: 0;
+    background-color: rgb(220, 203, 203);
+  }
+
+  ul {
+    margin: 0;
+  }
+
+  li {
+    line-height: 1rem;
+  }
+
+  .ul-container {
+    /* flex-direction: column; */
+    border-radius: 0;
+    gap: 0;
+    padding: 0.5rem;
+  }
+
+  .ul-container li {
+    font-size: 1.1rem;
+  }
+
+  a.text-link {
+    font-size: 1rem;
+  }
+
+  footer {
+    padding: 0;
+  }
+
+  p.small-text {
+    font-size: 0.9rem;
+  }
+}

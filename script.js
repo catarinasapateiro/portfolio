@@ -14,8 +14,7 @@ function changeImage() {
     title.innerText = "gradient-calculator";
     projectText.innerText =
       "The Gradient Calculator is a simple, responsive web app that allows users to calculate slope/gradient using distance and level difference. It provides real-time conversion between ratio and percentage formats. This tool is commonly used in civil engineering, architecture, construction and road design. I’m currently in the process of adding the app to the Chrome Web Store.";
-    link.innerText =
-      "https://chromewebstore.google.com/detail/gradient-calculator/pddmaekghpocljkljdfopeclnleghaeo";
+    link.innerText = "https://chromewebstore.google.com/gradient-calculator";
     link.href =
       "https://chromewebstore.google.com/detail/gradient-calculator/pddmaekghpocljkljdfopeclnleghaeo";
   } else if (img.src.endsWith("geo-explorer-dark.png")) {
