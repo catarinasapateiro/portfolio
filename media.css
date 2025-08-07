@@ -6,10 +6,6 @@
     align-items: flex-start;
   }
 
-  p {
-    line-height: normal;
-  }
-
   .image-container {
     flex: 0 0 45%;
     max-width: 45%;
@@ -41,20 +37,20 @@
 
 @media (max-width: 952px) {
   .ul-container {
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     gap: 0.5rem;
+    justify-content: space-between;
     padding: 0.5rem;
+    width: 100%;
   }
 
   .ul-container ul {
     flex: 1 1 30%; /* 2-3 columns depending on screen width */
-    min-width: 100px;
-    max-width: 100%;
     list-style: none;
     margin: 0;
+    max-width: 100%;
+    min-width: 100px;
     padding: 0;
   }
 }
@@ -161,15 +157,10 @@
 
   .summary-text {
     font-size: 1.2rem;
-    line-height: 1.7rem;
   }
 
   .ul-container li {
     font-size: 1.3rem;
-  }
-
-  a.text-link {
-    line-height: 0.6rem;
   }
 }
 
@@ -192,7 +183,6 @@
   h3 {
     font-size: 1.6rem;
     margin: 0;
-    line-height: 1.2rem;
   }
 
   nav {
@@ -253,7 +243,6 @@
 
   .summary-text {
     font-size: 1rem;
-    line-height: 1.5rem;
     flex-wrap: wrap;
   }
 
@@ -311,7 +300,6 @@
   }
 
   li {
-    line-height: 1rem;
     color: #632e51;
     font-weight: 600;
   }
