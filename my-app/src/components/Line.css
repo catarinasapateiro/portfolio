@@ -1,0 +1,10 @@
+@keyframes lineDrawToLeft {
+  from {
+    width: 0%;
+    transform: translateX(100%);
+  }
+  to {
+    width: 100%;
+    transform: translateX(0%);
+  }
+}
